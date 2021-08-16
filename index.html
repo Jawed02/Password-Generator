@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+<script src="passwordgenerator.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+ <p>Password Generator</p>
+ <hr>
+    <div class="container">
+      <div class="password">
+  <span id="password">Your Password Will Display Here</span> 
+  </div>
+  <br>
+  <div class="name">
+    <label>Enter Your Name </label> &nbsp <input id="name" type="text" placeholder="Name" required>
+  </div>
+  <div class="email">
+    <label>Enter Your Email id </label> &nbsp <input id="email" type="email" placeholder="Email" required>
+    
+  </div>
+  <div class="phone">
+    <label>Enter Your Phone Number </label> &nbsp <input id="phone" type="number" placeholder="Number" required>
+    
+  </div>
+  
+  <div class="length">
+    <label>Enter Length Of Password </label> &nbsp <input id="length" type="number" placeholder="Length" required>
+    
+  </div>
+  
+  <br>
+  <div class="btn">
+    <button class="button" id="buttton" onclick="getPassword()">Get Password</button>
+  </div>
+  
+  
+  
+</div>
+
+</body>
+</html>

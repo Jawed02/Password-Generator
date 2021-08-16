@@ -1,0 +1,127 @@
+* {
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+
+body {
+    background-color:black;
+    color:white;
+  
+    
+}
+
+p{
+    text-align: left;
+    margin-top: 25px;
+    font-size:25px;
+    letter-spacing: 4px;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+.container {
+
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#name {
+    border:none;
+    border-bottom: 1px solid grey;
+    width: 30%;
+padding: 12px 20px;
+
+
+}
+
+#email {
+    border:none;
+    border-bottom: 1px solid grey;
+    width: 30%;
+    padding: 12px 10px;
+   
+}
+#phone {
+    border:none;
+    border-bottom: 1px solid grey;
+    width: 30%;
+    padding: 12px 20px;
+   
+
+}
+#length {
+    border:none;
+    border-bottom: 1px solid grey;
+    width: 30%;
+    padding: 12px 20px;
+   
+
+}
+
+
+#password {
+    border:2px solid white;
+    padding:15px;
+    background-color:white;
+    border-radius: 10px;
+    color: black;
+    font-size:20px;
+    
+}
+
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 17px;
+  }
+
+ 
+/* .button:hover {
+    background-color: black;
+    color: white;
+  }
+   */
+  
